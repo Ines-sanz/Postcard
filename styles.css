@@ -1,0 +1,69 @@
+body {
+	background: black;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	padding-top: 10px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	margin-top: 5px;
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	font-family: "Noto Serif Display", serif;
+	margin: 0;
+	margin-left: 15px;
+	color: #1a92cc;
+	width: 80%;
+}
+.postcard-body {
+	display: flex;
+	font-family: "Cutive Mono", monospace;
+	font-weight: 400;
+	font-size: 14px;
+	font-style: normal;
+}
+.body-left p:first-child {
+	margin-top: 0px;
+}
+.body-left p:last-child {
+	font-size: 13px;
+}
+.body-left,
+.body-right {
+	padding: 20px;
+}
+input {
+	border: none;
+	border-bottom: dotted rgba(128, 128, 128, 0.435);
+	font-size: 11px;
+	font-family: "Cutive Mono", monospace;
+	font-weight: 200;
+	font-style: normal;
+}
+.postcard-footer {
+	margin-top: -10px;
+	text-align: center;
+}
+button {
+	font-family: "Open Sans", sans-serif;
+	border: none;
+	border-radius: 30px;
+	background-color: rgba(211, 211, 211, 0.507);
+	padding: 10px;
+}
+button:hover {
+	background-color: #1a91cc;
+	color: white;
+}
+button:hover i {
+	color: white;
+}
